@@ -30,20 +30,19 @@ public class LoginAction extends ActionSupport {
     private static final long serialVersionUID = 1L;
     public String Name;
     public int Age;
-    public Person PersonShana;
+    public Person PersonTom;
     public String getResult() {
         return Result;
 
     }
-
-    public Person getPersonShana() {
-        return PersonShana;
+    public Person getPersonTom() {
+        return PersonTom;
     }
-
-    public void setPersonShana(Person personShana) {
-        PersonShana = personShana;
+    
+    public void setPersonTom(Person personTom) {
+        PersonTom = personTom;
     }
-
+    
     public void setResult(String result) {
         Result = result;
     }

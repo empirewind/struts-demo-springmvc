@@ -10,8 +10,8 @@
     <h2>Hello World!</h2>
 
     <form action="login">
-        姓名<s:property value="PersonShana.Name" />
-        年龄<s:property value="PersonShana.Age" />
+        姓名<s:property value="PersonTom.Name" />
+        年龄<s:property value="PersonTom.Age" />
     </form>
 </body>
 </html>

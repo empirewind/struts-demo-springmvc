@@ -5,11 +5,11 @@
 
     <bean id="person" name="person"
         class="com.bonc.yuan.entity.Person">
-        <property name="name" value="shana"></property>
-        <property name="age" value="29"></property>
+        <property name="name" value="tom"></property>
+        <property name="age" value="22"></property>
     </bean>
     <bean id="login" name="loginaction"
         class="com.bonc.yuan.action.LoginAction">
-        <property name="personShana" ref="person"></property>
+        <property name="personTom" ref="person"></property>
     </bean>
 </beans>
