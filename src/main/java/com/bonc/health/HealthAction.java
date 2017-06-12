@@ -28,7 +28,7 @@ public class HealthAction {
 
     @RequestMapping(value={"/health"}, method=RequestMethod.GET)
     public String health(){
-        System.out.println("进图");
+        System.out.println("进入");
         return "myhealth";
     }
 }
